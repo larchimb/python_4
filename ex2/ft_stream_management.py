@@ -11,7 +11,7 @@ def main() -> None:
     sys.stderr.write(
         "[ALERT] System diagnostic: Communication channels verified\n"
     )
-    sys.stdout.write(f"[STANDARD] Data transmission complete\n")
+    sys.stdout.write("[STANDARD] Data transmission complete\n")
     print("\nThree-channel communication test successful.")
 
 
